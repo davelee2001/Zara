@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategy Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .activity {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .activity:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Strategy Game</h1>
+    <p>Strategy Units: <span id="units">100</span></p>
+    <h2>Activities</h2>
+    <div class="activity" onclick="investInActivity('activity1', 5)">Activity 1 (5 units)</div>
+    <!-- Add other activities here -->
+
+    <h2>Criteria Scores</h2>
+    <p>Criteria 1: <span id="criteria1">0</span></p>
+    <p>Criteria 2: <span id="criteria2">0</span></p>
+    <p>Criteria 3: <span id="criteria3">0</span></p>
+    <p>Criteria 4: <span id="criteria4">0</span></p>
+    <p>Criteria 5: <span id="criteria5">0</span></p>
+
+    <script src="js_file.js"></script>
+</body>
+
+</html>
